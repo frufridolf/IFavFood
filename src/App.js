@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 // import { Container, Row, Col } from 'reactstrap';
-import logo from './images/logo.jpg';
+import logo from './images/vaxthuset.jpg';
 import './App.css';
 import store from './reducers.js';
 
@@ -32,7 +32,7 @@ class RecipeApp extends Component {
             }} />
             </div>
             <div>
-            <label>Recept ingrediens </label>
+            <label>Lägg till recept ingrediens </label>
             <input ref={node => {
                 this.inputIngredient = node;
             }} />
